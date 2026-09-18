@@ -1,6 +1,6 @@
-﻿{
-    "version":  "1.0.6",
-    "download_url":  "https://github.com/lyclhx/follower-growth-tracker/releases/download/v1.0.6/follower-growth-tracker-v1.0.6.zip",
-    "sha256":  "5ddcf422d0a0349cf03f27207d27bf110d7159d9392f31d7d664494beba98f20",
-    "notes":  "Added Windows certificate-store support, custom CA and proxy diagnostics, stopped retrying certificate errors, and kept updates manual."
+{
+  "version": "1.0.7",
+  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v1.0.7/follower-growth-tracker-v1.0.7.zip",
+  "sha256": "f092f57712cfb26d0f8c8265016b7a287b5835b10dd68da994141cb191a44863",
+  "notes": "Updated the manual software-update window with release notes, single-instance updater protection, staged replacement, retry handling, and rollback on update failure."
 }
