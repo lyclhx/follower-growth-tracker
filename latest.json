@@ -1,6 +1,6 @@
 {
-  "version": "1.0.7",
-  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v1.0.7/follower-growth-tracker-v1.0.7.zip",
-  "sha256": "f092f57712cfb26d0f8c8265016b7a287b5835b10dd68da994141cb191a44863",
-  "notes": "Updated the manual software-update window with release notes, single-instance updater protection, staged replacement, retry handling, and rollback on update failure."
+  "version": "1.0.18",
+  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v1.0.18/follower-growth-tracker-v1.0.18.zip",
+  "sha256": "441269dbe0aa137a2c0e9e7411135c29646cbe41ff627823b10b6b6de6beaf87",
+  "notes": "Added WPS-style table filters and numeric selection sorting. The collection table now supports 0-to-1 unselected-first and 1-to-0 selected-first ordering, along with previous/latest/growth numeric sorting."
 }
