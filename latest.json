@@ -2,5 +2,5 @@
   "version": "1.0.5",
   "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v1.0.5/follower-growth-tracker-v1.0.5.zip",
   "sha256": "9d2395c35c89843b6662426a53c760b902b65542f20dac0567c9a049e70fdcc6",
-  "notes": "Fixed Windows interval schedule date format, made updates manual, and kept task-to-task and multi-group comparison."
+  "notes": "Fixed Windows interval scheduling, made updates manual, preserved manual comparison task changes, and prevented duplicate scheduled workers."
 }
