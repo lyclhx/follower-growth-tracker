@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "1.0.1",
-    "download_url":  "https://github.com/lyclhx/follower-growth-tracker/releases/download/v1.0.1/follower-growth-tracker-v1.0.1.zip",
-    "sha256":  "8f747689c2955a7cfc07dfbeba6b4524b8e8e9f56832ed6d6e93dd3bc7de9613",
+    "version":  "1.0.2",
+    "download_url":  "https://github.com/lyclhx/follower-growth-tracker/releases/download/v1.0.2/follower-growth-tracker-v1.0.2.zip",
+    "sha256":  "4243c6fbd2421f4501fb44ea4ca10b120f873184b66ff38103d68ac5d66cdefa",
     "notes":  "Initial release: account import, scheduled collection, and 30-day follower analysis."
 }
