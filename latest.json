@@ -1,6 +1,6 @@
 {
-  "version": "1.0.18",
-  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v1.0.18/follower-growth-tracker-v1.0.18.zip",
-  "sha256": "441269dbe0aa137a2c0e9e7411135c29646cbe41ff627823b10b6b6de6beaf87",
-  "notes": "Added WPS-style table filters and numeric selection sorting. The collection table now supports 0-to-1 unselected-first and 1-to-0 selected-first ordering, along with previous/latest/growth numeric sorting."
+  "version": "2.0.0",
+  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.0/follower-growth-tracker-v2.0.0.zip",
+  "sha256": "52afe9e96f5e966509f2f98746976819fa42df62871cc493d97c941d8daf4b35",
+  "notes": "Released version 2.0.0. Removed the unused import-preview processing panel from the account area, expanded the preview table, and kept account validation, saving, collection, filters, and trend views unchanged."
 }
