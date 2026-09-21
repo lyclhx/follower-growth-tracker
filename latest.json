@@ -1,6 +1,6 @@
 {
-  "version": "2.0.1",
-  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.1/follower-growth-tracker-v2.0.1.zip",
-  "sha256": "76eda14ac39329974761ed41b44aa1f355b8b6f5a9e53ff0bf2f9e1d6b988479",
-  "notes": "Version 2.0.1 redesigns the data overview, adds group rename and merge, shows gain and loss totals, moves collection progress into the top toolbar, and clarifies all quantity labels."
+  "version": "2.0.2",
+  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.2/follower-growth-tracker-v2.0.2.zip",
+  "sha256": "334a24f34559965ad87e1b6fa968f536757e6e7e0f3f26642ca21efcefea4149",
+  "notes": "Version 2.0.2 fixes updater backup conflicts by replacing the legacy updater service and preventing duplicate update jobs. Account data remains preserved."
 }
