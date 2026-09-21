@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0",
-  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.0/follower-growth-tracker-v2.0.0.zip",
-  "sha256": "52afe9e96f5e966509f2f98746976819fa42df62871cc493d97c941d8daf4b35",
-  "notes": "Released version 2.0.0. Removed the unused import-preview processing panel from the account area, expanded the preview table, and kept account validation, saving, collection, filters, and trend views unchanged."
+  "version": "2.0.1",
+  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.1/follower-growth-tracker-v2.0.1.zip",
+  "sha256": "76eda14ac39329974761ed41b44aa1f355b8b6f5a9e53ff0bf2f9e1d6b988479",
+  "notes": "Version 2.0.1 redesigns the data overview, adds group rename and merge, shows gain and loss totals, moves collection progress into the top toolbar, and clarifies all quantity labels."
 }
