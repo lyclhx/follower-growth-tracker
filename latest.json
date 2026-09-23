@@ -1,6 +1,6 @@
-﻿{
-    "version":  "2.0.8",
-    "download_url":  "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.8/follower-growth-tracker-v2.0.8.zip",
-    "sha256":  "ef8641b013aa2f67d29ed8927338bcef2d82005341dbe9927500570a5d5f1c23",
-    "notes":  "Version 2.0.8 makes all failure-management actions visible at normal and minimum window sizes. It retains the latest-run and Beijing-date comparisons and account-data deletion from 2.0.7. Existing account data remains preserved during updates."
+{
+  "version": "2.0.9",
+  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.9/follower-growth-tracker-v2.0.9.zip",
+  "sha256": "dd704ebdcb33822de5abf96823f756ec10407535280f92c492bb85a7cb545d56",
+  "notes": "Version 2.0.9 adds a persistent serial collection queue, queue review and cancellation, safe pause and resume on platform channel failures, and per-worker connection reuse. It also fixes silent manual-collection errors, duplicate failure retries, a misplaced group selector, stale import previews, and invalidated update checks. Existing account data remains preserved during updates."
 }
