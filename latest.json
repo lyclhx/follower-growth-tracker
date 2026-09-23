@@ -1,6 +1,6 @@
-{
-  "version": "2.0.5",
-  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.5/follower-growth-tracker-v2.0.5.zip",
-  "sha256": "ca2018b4e3d5aeaaaae9c4a8622424e232b7ddf95ff8db85af0094258ca61299",
-  "notes": "Version 2.0.5 adds cooperative collection stop, per-account result persistence, and failure management with detailed errors, group reassignment, bulk deletion, and retry. Permanent account and page errors no longer retry pointlessly. Account data remains preserved."
+﻿{
+    "version":  "2.0.7",
+    "download_url":  "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.7/follower-growth-tracker-v2.0.7.zip",
+    "sha256":  "186d1ea5434ac38003102c852f630a2150515a6111f69bc74b0818d0afd67aa3",
+    "notes":  "Version 2.0.7 compares collection management using only the latest two runs, compares the first and last snapshots within each Beijing-date period, and lets users delete failed accounts with their history. Account data remains preserved during updates."
 }
