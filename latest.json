@@ -1,6 +1,6 @@
 {
-  "version": "2.0.3",
-  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.3/follower-growth-tracker-v2.0.3.zip",
-  "sha256": "8da387686835c5b6fcf38571aa51221e4b16a89eb5019b8cddd326e7d9cc1207",
-  "notes": "Version 2.0.3 adds daily multi-time Beijing scheduling and period comparisons using real snapshots with their actual dates. Account data remains preserved."
+  "version": "2.0.4",
+  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.4/follower-growth-tracker-v2.0.4.zip",
+  "sha256": "d2afcbfa716c520cac4fe0ef993f750f1c9d0c19d30966af56d74abe6f14123c",
+  "notes": "Version 2.0.4 fixes updater waits on stale process IDs, checks all running app instances, and validates the complete update package before replacement. Account data remains preserved."
 }
