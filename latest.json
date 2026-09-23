@@ -1,6 +1,6 @@
 ﻿{
-    "version":  "2.0.7",
-    "download_url":  "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.7/follower-growth-tracker-v2.0.7.zip",
-    "sha256":  "186d1ea5434ac38003102c852f630a2150515a6111f69bc74b0818d0afd67aa3",
-    "notes":  "Version 2.0.7 compares collection management using only the latest two runs, compares the first and last snapshots within each Beijing-date period, and lets users delete failed accounts with their history. Account data remains preserved during updates."
+    "version":  "2.0.8",
+    "download_url":  "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.8/follower-growth-tracker-v2.0.8.zip",
+    "sha256":  "ef8641b013aa2f67d29ed8927338bcef2d82005341dbe9927500570a5d5f1c23",
+    "notes":  "Version 2.0.8 makes all failure-management actions visible at normal and minimum window sizes. It retains the latest-run and Beijing-date comparisons and account-data deletion from 2.0.7. Existing account data remains preserved during updates."
 }
