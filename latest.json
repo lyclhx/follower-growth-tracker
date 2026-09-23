@@ -1,6 +1,6 @@
 {
-  "version": "2.0.2",
-  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.2/follower-growth-tracker-v2.0.2.zip",
-  "sha256": "334a24f34559965ad87e1b6fa968f536757e6e7e0f3f26642ca21efcefea4149",
-  "notes": "Version 2.0.2 fixes updater backup conflicts by replacing the legacy updater service and preventing duplicate update jobs. Account data remains preserved."
+  "version": "2.0.3",
+  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.3/follower-growth-tracker-v2.0.3.zip",
+  "sha256": "8da387686835c5b6fcf38571aa51221e4b16a89eb5019b8cddd326e7d9cc1207",
+  "notes": "Version 2.0.3 adds daily multi-time Beijing scheduling and period comparisons using real snapshots with their actual dates. Account data remains preserved."
 }
