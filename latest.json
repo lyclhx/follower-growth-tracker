@@ -1,6 +1,6 @@
 {
-  "version": "2.0.12",
-  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.12/follower-growth-tracker-v2.0.12.zip",
-  "sha256": "e9b2a1d57e779e1ab1eb4066a9c2d505c271c137d5faa65403c4bdc289ce1fbe",
-  "notes": "修复采集暂停续跑后上次粉丝记录丢失的问题；1天对比采用今天最新与昨天最后的快照，今天未采集时保留最近有数据日期的日对比；平台限流自动等待5分钟后续采，其他失败账号跳过。更新时保留账号和历史数据。"
+  "version": "2.0.13",
+  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.13/follower-growth-tracker-v2.0.13.zip",
+  "sha256": "e74a89c842bde6702efaf5b1c7e0c8c94824582609722862e1947cf38858e4c0",
+  "notes": "采集遇到平台限流时等待5分钟后续采；单个账号暂时失败先跳过，其他账号完成后再集中重试；账号不存在或无法访问时不重复请求。更新时保留账号和历史数据。"
 }
