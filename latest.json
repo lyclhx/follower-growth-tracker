@@ -1,6 +1,6 @@
 {
-  "version": "2.0.10",
-  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.10/follower-growth-tracker-v2.0.10.zip",
-  "sha256": "21e0a9a1204c5affb849c634a6c4a3381e48cf889dbac029d3a3084daae62391",
-  "notes": "本版本优化了采集限流处理：遇到平台限流会暂停队列并保留未采集账号；失败记录页面仅显示最近4小时，支持全选当前记录、重试或删除，双击用户名即可复制。更新时保留原有账号和历史数据。"
+  "version": "2.0.11",
+  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.11/follower-growth-tracker-v2.0.11.zip",
+  "sha256": "02e04652c1cc5200676e8de18250c99f7164987ad3b34a209e249c2e13fcfa5c",
+  "notes": "修复待采集任务窗口底部操作栏被任务表格挤出的布局问题，确保可见并可点击继续队列。保留采集限流保护和失败记录管理优化。更新时保留原有账号和历史数据。"
 }
