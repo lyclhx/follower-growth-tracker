@@ -1,6 +1,6 @@
 {
-  "version": "2.0.9",
-  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.9/follower-growth-tracker-v2.0.9.zip",
-  "sha256": "dd704ebdcb33822de5abf96823f756ec10407535280f92c492bb85a7cb545d56",
-  "notes": "Version 2.0.9 adds a persistent serial collection queue, queue review and cancellation, safe pause and resume on platform channel failures, and per-worker connection reuse. It also fixes silent manual-collection errors, duplicate failure retries, a misplaced group selector, stale import previews, and invalidated update checks. Existing account data remains preserved during updates."
+  "version": "2.0.10",
+  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.10/follower-growth-tracker-v2.0.10.zip",
+  "sha256": "21e0a9a1204c5affb849c634a6c4a3381e48cf889dbac029d3a3084daae62391",
+  "notes": "本版本优化了采集限流处理：遇到平台限流会暂停队列并保留未采集账号；失败记录页面仅显示最近4小时，支持全选当前记录、重试或删除，双击用户名即可复制。更新时保留原有账号和历史数据。"
 }
