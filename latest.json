@@ -1,6 +1,6 @@
 {
-  "version": "2.0.13",
-  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.13/follower-growth-tracker-v2.0.13.zip",
-  "sha256": "e74a89c842bde6702efaf5b1c7e0c8c94824582609722862e1947cf38858e4c0",
-  "notes": "采集遇到平台限流时等待5分钟后续采；单个账号暂时失败先跳过，其他账号完成后再集中重试；账号不存在或无法访问时不重复请求。更新时保留账号和历史数据。"
+  "version": "2.0.14",
+  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.14/follower-growth-tracker-v2.0.14.zip",
+  "sha256": "c4692625c289e89e1c935be1cc35d36fdfe860d353f5cce25f4e2664ebc355e3",
+  "notes": "重新设计简约与深色界面，统一导航、按钮和数据表格样式，修复深色模式中的白色滚动条；采集与增长数据逻辑保持不变。更新时保留账号和历史数据。"
 }
