@@ -1,6 +1,6 @@
 {
-  "version": "2.0.16",
-  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.16/follower-growth-tracker-v2.0.16.zip",
-  "sha256": "157d9e66ca07f02977489329b8f168ae0220cf4bac309d8eb2ae4dfb79e62f8f",
-  "notes": "采集通道改用 FxTwitter 的公开账号资料接口，修复 X 页面结构变化导致全部账号无法采集的问题；对用户名和粉丝整数严格校验。第三方服务可能缓存、限流或中断，更新保留账号和历史数据。"
+  "version": "2.0.17",
+  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.17/follower-growth-tracker-v2.0.17.zip",
+  "sha256": "304d7cf53ab2ab8253ac674351f114056df17b838c522fd37842a09c14e4550f",
+  "notes": "采集改为逐个执行，每次请求前至少等待 2 秒；修复限流响应和读取超时误判，取消底层快速重复重试。限流或临时断线后自动等待续采，持续异常则保留进度并暂停队列。更新保留账号和历史数据；第三方通道仍可能缓存、限流或中断。"
 }
