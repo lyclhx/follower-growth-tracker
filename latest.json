@@ -1,6 +1,6 @@
 {
-  "version": "2.0.17",
-  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.17/follower-growth-tracker-v2.0.17.zip",
-  "sha256": "304d7cf53ab2ab8253ac674351f114056df17b838c522fd37842a09c14e4550f",
-  "notes": "采集改为逐个执行，每次请求前至少等待 2 秒；修复限流响应和读取超时误判，取消底层快速重复重试。限流或临时断线后自动等待续采，持续异常则保留进度并暂停队列。更新保留账号和历史数据；第三方通道仍可能缓存、限流或中断。"
+  "version": "2.0.18",
+  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.18/follower-growth-tracker-v2.0.18.zip",
+  "sha256": "c04473b6e89a8334cabe4654769eefd10b89fc8a61005de77648ad829d7aff11",
+  "notes": "修正 3、7、15、30 天为北京时间滚动自然日对比：区间开始前最后一次成功数据，对比区间内最新数据。账号与分组按净变化归类，缺少数据不计入不变账号；历史清理额外保留一条对比基准。1 天对比及慢速采集策略保持不变，更新保留账号和历史数据。"
 }
