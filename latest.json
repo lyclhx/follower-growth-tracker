@@ -1,6 +1,6 @@
 {
-  "version": "2.0.18",
-  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.18/follower-growth-tracker-v2.0.18.zip",
-  "sha256": "c04473b6e89a8334cabe4654769eefd10b89fc8a61005de77648ad829d7aff11",
-  "notes": "修正 3、7、15、30 天为北京时间滚动自然日对比：区间开始前最后一次成功数据，对比区间内最新数据。账号与分组按净变化归类，缺少数据不计入不变账号；历史清理额外保留一条对比基准。1 天对比及慢速采集策略保持不变，更新保留账号和历史数据。"
+  "version": "2.0.19",
+  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.19/follower-growth-tracker-v2.0.19.zip",
+  "sha256": "4debc1f7cfb01a8fdc490740b26910a845b474be9f140f71ff537b8eba596da7",
+  "notes": "优化历史不足时的周期对比：3、7、15、30 天缺少区间前基准时，使用区间内最早与最新两次成功记录，并标明历史不足及实际日期。只有一条记录不计入不变账号；历史满足后自动使用完整周期基准。账号与分组统计一致，1 天及采集逻辑保持不变，更新保留账号和历史数据。"
 }
