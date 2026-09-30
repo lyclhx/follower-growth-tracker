@@ -1,6 +1,6 @@
 {
-  "version": "2.0.20",
-  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.20/follower-growth-tracker-v2.0.20.zip",
-  "sha256": "7878376898c17060ae297699accad38f53b73100df3ff7b23065b06ab50ece87",
-  "notes": "修复局部采集导致采集管理对比清空：只抓取单个账号、导入新账号、失败或暂停时，其他账号保留最近成功对比，并标注保留上次数据。重试沿用原采集轮次的基准，首次单条记录不计入涨跌或不变。更新保留账号和历史数据。"
+  "version": "2.0.21",
+  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.21/follower-growth-tracker-v2.0.21.zip",
+  "sha256": "631113cdb1cc55d961c622d0524081500b0eae17db31d6fec70d1d57d96a23e6",
+  "notes": "修复1天页局部采集清空其他账号日对比：未采集成功的账号保留各自最近成功日的日对比，并标注保留历史及实际日期。今天采集成功后使用今天最新与昨天最后一次，缺少基准不伪造零变化。修复北京时间跨日后统计区间不自动刷新；带时区的周期快照按实际北京时间排序和显示。核对3、7、15、30天区间端点、局部采集、失败重试和分组汇总，不累计中途涨跌。更新保留账号和历史数据。"
 }
