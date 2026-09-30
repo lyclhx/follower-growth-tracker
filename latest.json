@@ -1,6 +1,6 @@
 {
-  "version": "2.0.19",
-  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.19/follower-growth-tracker-v2.0.19.zip",
-  "sha256": "4debc1f7cfb01a8fdc490740b26910a845b474be9f140f71ff537b8eba596da7",
-  "notes": "优化历史不足时的周期对比：3、7、15、30 天缺少区间前基准时，使用区间内最早与最新两次成功记录，并标明历史不足及实际日期。只有一条记录不计入不变账号；历史满足后自动使用完整周期基准。账号与分组统计一致，1 天及采集逻辑保持不变，更新保留账号和历史数据。"
+  "version": "2.0.20",
+  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.20/follower-growth-tracker-v2.0.20.zip",
+  "sha256": "7878376898c17060ae297699accad38f53b73100df3ff7b23065b06ab50ece87",
+  "notes": "修复局部采集导致采集管理对比清空：只抓取单个账号、导入新账号、失败或暂停时，其他账号保留最近成功对比，并标注保留上次数据。重试沿用原采集轮次的基准，首次单条记录不计入涨跌或不变。更新保留账号和历史数据。"
 }
