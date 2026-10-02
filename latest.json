@@ -1,6 +1,6 @@
 {
-  "version": "2.0.21",
-  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.21/follower-growth-tracker-v2.0.21.zip",
-  "sha256": "631113cdb1cc55d961c622d0524081500b0eae17db31d6fec70d1d57d96a23e6",
-  "notes": "修复1天页局部采集清空其他账号日对比：未采集成功的账号保留各自最近成功日的日对比，并标注保留历史及实际日期。今天采集成功后使用今天最新与昨天最后一次，缺少基准不伪造零变化。修复北京时间跨日后统计区间不自动刷新；带时区的周期快照按实际北京时间排序和显示。核对3、7、15、30天区间端点、局部采集、失败重试和分组汇总，不累计中途涨跌。更新保留账号和历史数据。"
+  "version": "2.0.22",
+  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.22/follower-growth-tracker-v2.0.22.zip",
+  "sha256": "0e6e7bbe628f89bac09321a6571c04459828cab38d0917cae336afd2cb1a2e72",
+  "notes": "修复失败重试和暂停续采的比对基准：重试明确关联原采集任务，中途采集其他账号不会更换上次基准。失败页面按原任务分批重试，避免不同任务混用基准。采集进程意外退出后恢复未完成账号，异常时保存剩余账号并暂停队列，任务结果和续采队列一起保存。统一采集管理、趋势、历史清理的北京时间排序，保留仍被快照或重试引用的任务记录。修复趋势弹窗时间范围选项报错及深色模式文字、图线和选项的显示。更新保留账号和历史数据。"
 }
