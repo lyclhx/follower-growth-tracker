@@ -1,6 +1,6 @@
-{
-  "version": "2.0.26",
-  "download_url": "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.26/follower-growth-tracker-v2.0.26.zip",
-  "sha256": "04c57ea766bb1c0627d320e7c39a8b359975c2e9f193e551d41901b1855b28b9",
-  "notes": "重新设计桌面工作台及程序图标，提供简约浅色与石墨深色主题。增长概览突出涨粉、掉粉和三类账号数量；分组采用统一刻度的涨跌条，支持双击进入排名、排序和返回。采集管理新增独立定时计划弹窗、账号搜索、更多列和用户名右键操作；趋势使用简洁柱形图。原有采集通道、任务队列、失败去重、累计涨跌统计及账号归类口径保持不变，更新保留账号、分组和历史数据。"
+﻿{
+    "version":  "2.0.27",
+    "download_url":  "https://github.com/lyclhx/follower-growth-tracker/releases/download/v2.0.27/follower-growth-tracker-v2.0.27.zip",
+    "sha256":  "8f7bb8506ca119c85db70eb80676d9c499e5d0031dfca8551c884f2ad2ccd2f0",
+    "notes":  "修复采集失败分类：资料服务明确提示账号暂停或受限时，单独显示中文原因，本轮跳过该账号并继续其他账号，不再误报为批量数据服务异常，也不删除账号或历史数据。保留新旧接口回退；普通查不到资料继续延迟复查，限流及临时服务异常仍按冷却机制处理。重试成功账号从异常比例中移除，避免已恢复账号造成误报。粉丝涨跌统计口径不变，更新保留账号、分组和历史数据。"
 }
